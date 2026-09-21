@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neuroanatomía ENARM</title>
+    <meta
+      name="description"
+      content="Página web interactiva sobre bases neuroanatómicas y neurofisiológicas del sistema nervioso, enfocada en localización neurológica y preguntas ENARM."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">N</span>
+          <span>Neuroanatomía ENARM</span>
+        </div>
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="#conceptos">Conceptos</a>
+          <a href="#localizacion">Localización</a>
+          <a href="#preguntas">Preguntas</a>
+          <a href="#recursos">Recursos</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Aprendizaje guiado para ENARM</span>
+            <h1>Dominando la localización neurológica</h1>
+            <p>
+              Esta plataforma reúne los pilares esenciales para interpretar
+              síntomas, reconocer síndromes motores y sensitivos y relacionarlos
+              con lesiones anatómicas del sistema nervioso.
+            </p>
+            <div class="cta-row">
+              <a href="#preguntas" class="btn btn-primary">Comenzar</a>
+              <a href="#localizacion" class="btn btn-secondary">Ver enfoque</a>
+            </div>
+            <ul class="hero-stats" aria-label="Estadísticas">
+              <li><strong>5</strong><span>hemisferios funcionales</span></li>
+              <li><strong>7</strong><span>síndromes clave</span></li>
+              <li><strong>∞</strong><span>casos clínicos</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-panel" aria-label="Resumen visual">
+            <div class="panel-card">
+              <p class="small-label">Localización clínica</p>
+              <h2>¿Dónde está la lesión?</h2>
+              <div class="lesion-flow">
+                <span>Motor</span>
+                <span class="arrow">→</span>
+                <span>Sensitivo</span>
+                <span class="arrow">→</span>
+                <span>Cranial</span>
+              </div>
+              <div class="mini-metrics">
+                <div>
+                  <strong>++</strong>
+                  <small>Reflejos</small>
+                </div>
+                <div>
+                  <strong>−</strong>
+                  <small>Fuerza</small>
+                </div>
+                <div>
+                  <strong>!</strong>
+                  <small>Signos</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="conceptos" class="section">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow purple">Fundamentos</span>
+            <h2>Conceptos clave</h2>
+          </div>
+
+          <div class="card-grid three-col">
+            <article class="info-card">
+              <div class="icon">🧠</div>
+              <h3>Neuroanatomía</h3>
+              <p>
+                Reconoce estructuras como córtex, tálamo, tronco encefálico,
+                cerebelo y médula para relacionar la clínica con la lesión.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <div class="icon">⚡</div>
+              <h3>Neurofisiología</h3>
+              <p>
+                Analiza conducción, transmisión sináptica, reflejos y sistema
+                extrapiramidal para explicar la disfunción funcional.
+              </p>
+            </article>
+
+            <article class="info-card">
+              <div class="icon">📍</div>
+              <h3>Localización</h3>
+              <p>
+                Determina si la lesión es central, periférica, supratentorial,
+                infratentorial o espinal según el patrón de déficit.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="localizacion" class="section alt-bg">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow">Patrones de lesión</span>
+            <h2>Cómo ubicar la lesión</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <span class="step">1</span>
+              <div>
+                <h3>Definir el déficit</h3>
+                <p>Motor, sensitivo, lenguaje, coordinación, conciencia o pares craneales.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="step">2</span>
+              <div>
+                <h3>Mapear la distribución</h3>
+                <p>Unilateral, ipsilateral, bilateral, distal o proximal.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="step">3</span>
+              <div>
+                <h3>Relacionar con tractos</h3>
+                <p>Vías piramidales, lemnisco medial, espinotalámicas, cerebelosas.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <span class="step">4</span>
+              <div>
+                <h3>Proponer localización</h3>
+                <p>Córtex, cápsula interna, tronco, cerebelo, médula o nervio periférico.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="preguntas" class="section">
+        <div class="container">
+          <div class="section-header split">
+            <div>
+              <span class="eyebrow purple">Práctica</span>
+              <h2>Banco de preguntas ENARM</h2>
+            </div>
+            <div class="scorebox" aria-live="polite">
+              <span>Resultado</span>
+              <strong id="score">0/0</strong>
+            </div>
+          </div>
+
+          <div id="quiz" class="quiz" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="recursos" class="section alt-bg">
+        <div class="container">
+          <div class="section-header">
+            <span class="eyebrow">Recuerdo rápido</span>
+            <h2>Patrones útiles</h2>
+          </div>
+
+          <div class="card-grid four-col">
+            <article class="mini-card">
+              <h3>Lesión cortical</h3>
+              <p>Déficit contralateral, signos de localización cortical, afasia o apraxia.</p>
+            </article>
+            <article class="mini-card">
+              <h3>Capsula interna</h3>
+              <p>Hemiplejía alterna o pura, con afectación de cara y extremidades.</p>
+            </article>
+            <article class="mini-card">
+              <h3>Tronco encefálico</h3>
+              <p>Déficit de pares craneales ipsilaterales y hemiparesia contralateral.</p>
+            </article>
+            <article class="mini-card">
+              <h3>Médula espinal</h3>
+              <p>Pérdida sensitiva y motora según nivel, con reflejos y esfínteres relevantes.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-wrap">
+        <p>Neuroanatomía ENARM</p>
+        <p>Diseño para repaso y estudio estructurado</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
